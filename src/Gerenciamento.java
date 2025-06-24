@@ -24,15 +24,15 @@ public class Gerenciamento {
     
     public String buscarFormas (int opcao) {
     	
-    	String formas = "";
-    	Class classe = (opcao == 1 ? Quadrado.class : 
-    		(opcao == 2 ? Retangulo.class :
-    			(opcao == 3 ? Circulo.class :
-    				(opcao == 4 ? Triangulo.class : null))));
+    	String formasTexto = "";
+    	ArrayList<formaGeometrica> formasLista;
+    	switch (opcao) {
+    	case 1: formasLista = buscarQuadrado(); break;
+    	default: formasLista = buscarTodos();
+    	}
+    	
+    
     	for (FormaGeometrica forma : this.formasGeometricas) {
-    		if (classe == null) {
-    			
-    		}
     	}
     }
 
