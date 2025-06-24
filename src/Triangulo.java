@@ -1,5 +1,3 @@
-package model;
-
 public abstract class Triangulo extends FormaGeometrica {
 	
 	protected double lado1;

@@ -1,5 +1,3 @@
-package model;
-
 public class Escaleno extends Triangulo {
 	
 	public Escaleno(double lado1, double lado2, double lado3) {

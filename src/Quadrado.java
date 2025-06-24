@@ -1,5 +1,3 @@
-package model;
-
 public class Quadrado extends FormaGeometrica {
 	
 	private double lado;

@@ -1,5 +1,3 @@
-package model;
-
 public class Equilatero extends Triangulo{
 	
 	public Equilatero(double lado1, double lado2, double lado3) {
