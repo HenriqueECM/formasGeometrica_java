@@ -1,4 +1,5 @@
 public class Usuario {
+	
 	private final String nome;
 	private final String senha;
 	
@@ -10,12 +11,8 @@ public class Usuario {
 	public String getNome() {
 		return nome;
 	}
-
-	public String getSenha() {
-		return senha;
-	}
-
+	
 	public boolean validarSenha(String senha) {
-		return this.senha.equals(senha);
+		return this.senha.equals(senha);	
 	}
 }

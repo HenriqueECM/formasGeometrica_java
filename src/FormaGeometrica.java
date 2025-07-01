@@ -8,9 +8,4 @@ public abstract class FormaGeometrica {
 		return "Perímetro = " + this.calcularPerimetro() +
 				"Área = " + this.calcularArea();
 	}
-	
-	
-	
-	
-
 }

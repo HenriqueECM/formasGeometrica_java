@@ -1,5 +1,4 @@
-public class Retangulo extends FormaGeometrica {
-
+public class Retangulo extends FormaGeometrica implements Validacao {
 	private double lado1;
 	private double lado2;
 	
@@ -23,5 +22,15 @@ public class Retangulo extends FormaGeometrica {
 		return "Retângulo: " +
 				"Lado 1 = " + this.lado1 +
 				"Lado 2 = " + this.lado2;
+		
+			}
+	
+	@Override
+	public boolean validar() {
+		 if (this.lado1 != this.lado2) {
+			return true;
+		} else {
+			return false;	
+		}
 	}
 }
